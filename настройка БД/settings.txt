@@ -1,0 +1,14 @@
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "OPTIONS": {
+            "service": "my_service",
+            "passfile": ".my_pgpass",
+            "isolation_level": IsolationLevel.SERIALIZABLE, #установка высокого уровня изоляции
+            "assume_role": "my_application_role", #роль
+            "server_side_binding": True, #Привязка параметров на стороне сервера
+            "disable_server_side_cursors": True, #установка курсора
+        },
+        
+    }
+};
