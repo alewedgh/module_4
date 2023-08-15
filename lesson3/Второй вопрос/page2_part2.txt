@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charest='UTF-8'>
+    <title>page2</title>
+</head>
+<body>
+
+
+<form action="handler.php">
+  <p>Пример запроса:</p>
+  <p><textarea name="comment" readonly>Как завязать шнурки?</textarea></p>
+ </form>
+ </form>
+
+  <a href="page1.html">Ввод запроса</a>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Панель навигации</a>
+  </div>
+</nav>
+
+
+</body>
+</html>

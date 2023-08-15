@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charest='UTF-8'>
+    <title>Page1</title>
+</head>
+<body>
+
+
+<form action="handler.php">
+  <p><b>Введите Ваши запрос:</b></p>
+  <p><textarea name="comment"></textarea></p>
+  <p><input type="submit"></p>
+  <p><textarea name="comment" readonly></textarea></p>
+
+  <a href="page2.html">Пример запроса</a>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Панель навигации</a>
+  </div>
+</nav>
+
+</body>
+</html>
