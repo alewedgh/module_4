@@ -1,4 +1,4 @@
 from django.urls import path
-from .views import index
+from .homework_lesson4 import index
 
 urlpatterns = [paths('',index)]
